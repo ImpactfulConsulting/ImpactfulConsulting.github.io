@@ -151,7 +151,7 @@ header p {
 }
 .btn-default {
 	color: #fff;
-	background-color: transparent;
+	background-color: #fff;
 	border: 2px solid #fff;
 	margin: 0 8px;
 	font-size: 16px;
