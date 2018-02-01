@@ -126,6 +126,14 @@ header {
 	position: relative;
 	height: 100%;
 }
+
+header2 {
+	background: url(../img/header-bg2.jpg) no-repeat bottom center;
+	background-size: cover;
+	color: #cfcfcf;
+	position: relative;
+	height: 100%;
+}
 header p {
 	color: #ffffff;
 	font-size: 18px;
