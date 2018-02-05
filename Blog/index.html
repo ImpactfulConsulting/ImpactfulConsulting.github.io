@@ -62,15 +62,23 @@
 </head>
 
 <!-- Blog Section -->
-<div class="container">
-    <div class="section-title wow fadeInDown">
-	<h1>{{ page.title }}</h1>
-	    <p class="meta">{{ page.date | date_to_string }}</p>
-	    <div class="post">
-		    {{ content }}
-	    </div>
+  <div class="vertical">
+    <div class="site-head-content" class="inner">
+      {% if page.logo %}
+      <a class="blog-logo" href="{{ site.baseurl }}">
+      <img src="{{ page.logo}}" alt="Blog Logo" />
+      </a>
+      {% endif %}
+      <h1 class="blog-title">{{ site.name}}</h1>
+      <h2 class="blog-description"> 
+      {{ site.description }}
+      {% if page.about %} 
+      </h2>
+      <a href='{{site.baseurl}}{{ page.about }}'> About me</a> |
+      {% if page.archives %} <a href='{{ site.baseurl }}{{ page.archives }}'> Posts</a>{% endif %}
+      {% endif %}
     </div>
-</div>
+  </div>
 
 <div id="footer" class="text-center">
   <div class="container">
