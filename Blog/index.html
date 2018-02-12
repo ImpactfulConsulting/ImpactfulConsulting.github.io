@@ -1,4 +1,4 @@
-m<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
@@ -58,12 +58,16 @@ m<!DOCTYPE html>
 </nav>
 
 <!-- Header -->
-<head class="text-center" name="home">
+<header class="text-center" name="home">
+  <div class="intro-text">
     <div class="clearfix"></div>
-</head>
-
+    <a href="#contact-section" class="btn btn-default btn-lg page-scroll wow fadeInDown" data-wow-delay="1000ms">Find Out More</a> </div>
+</header>	
 <!-- Blog Section -->
-<hr>
+<div id="blog-section>
+	<div class="section-title text-center wow fadeInDown>
+	<h2>Our Blog</h2>
+	<hr>
 <ul class="posts">
   {% for post in site.posts limit:5 %}
     <li><a href="{{ post.url }}">{{ post.title }}</a><span class="posts__date">{{ post.date | date_to_string }}</span></li>
