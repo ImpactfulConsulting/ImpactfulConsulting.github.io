@@ -1,5 +1,8 @@
+highlighter: rouge
 name: Uncommonsense
 markdown: kramdown
+kramdown:
+  input: GFM
 plugins: 
   - jekyll-feed
   
