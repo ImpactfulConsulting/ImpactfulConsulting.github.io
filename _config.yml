@@ -2,6 +2,7 @@
 title: Uncommonsense Group
 default_author: David Purdie
 description: "Advisory and Product Development for Banking and Technology"  # used in site head
+url: http://uncommonsensegroup.github.io
 
 # register on google analytics and replace this token
 google_analytics:
