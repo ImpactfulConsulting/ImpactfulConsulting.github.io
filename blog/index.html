@@ -10,12 +10,17 @@ tags: [Transformation, Agile, FRTB, DLT] #list of tags that you want to show in 
 
 <div class="post-preview">
     <a href="{{ post.url }}">
-        <h2 class="post-title"> hi there
+        <h2 class="post-title">
             {{ post.title }}
         </h2>
         {% if post.subtitle %}
         <h3 class="post-subtitle">
             {{ post.subtitle }}
+        </h3>
+        {% endif %}
+        {% if post.tags %}
+        <h3 class="post-tags">
+            {{ post.tags }}
         </h3>
         {% endif %}
     </a>
