@@ -20,7 +20,7 @@ tags: [General, Transformation, Agile, FRTB, DLT] #list of tags that you want to
         {% endif %}
         {% if post.tags %}
         <h3 class="post-tags">
-            {{ post.tags }}
+        <a href="/blog/tags/{{ post.tags }}" style="text-decoration: normal; font-weight: normal; color: #ffffff;"><i class="fa fa-tag"></i>{{ post.tags }}</a>
         </h3>
         {% endif %}
     </a>
