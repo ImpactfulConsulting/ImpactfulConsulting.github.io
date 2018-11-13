@@ -6,7 +6,7 @@ date:       2018-02-21 17:00:00
 author:     "David Purdie"
 header-img: "img/posts/Coach-bg.JPG"
 comments: true
-tags: [ Agile ]
+tags: [ agility ]
 ---
 
 When working with agile experts, they often describe themselves as coaches?
